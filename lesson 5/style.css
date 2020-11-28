@@ -1,0 +1,63 @@
+*{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+.heading{
+    color: purple;
+}
+
+#heading2{
+    color: green;
+}
+
+b, i{
+    color: gold;
+}
+
+h1.heading{
+    color: lightcoral;
+}
+
+.list .list_item{
+    color:#000;
+}
+
+body>ul li{
+    color: greenyellow;
+}
+
+p::after{
+    content: "___";
+    display: inline-block;
+    border-left: 1px solid #000;
+    width: 10px;
+    height: 20px;
+}
+
+p::before{
+    content: "***";
+}
+
+a:link{
+    color: darksalmon;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: white;
+}
+
+a:hover{
+    color: green;
+}
+
+a:focus{
+    color: aquamarine;
+}
